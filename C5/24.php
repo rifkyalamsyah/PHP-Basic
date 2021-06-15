@@ -1,0 +1,18 @@
+<?php
+
+// Percabangan
+// Else If statement
+
+$nilai = 85;
+$absen = 90;
+
+if ($nilai >= 80 && $absen >= 80):
+    echo "Nilai Anda A" . PHP_EOL;
+elseif ($nilai >= 70 && $absen >= 75):
+    echo "Nilai Kamu B" . PHP_EOL;
+elseif ($nilai >=60 && $absen >= 60):
+    echo "Nilai Anda C" . PHP_EOL;
+elseif ($nilai >= 50 && $absen >=50):
+else :
+    echo "Nilai Anda E". PHP_EOL;
+endif;
